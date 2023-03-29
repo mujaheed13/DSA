@@ -6,12 +6,12 @@ let n = arr.length;
 
 let ans = "";
 
-for(let i=k; i>=0; i--){
-    ans+=arr[i]+" ";
+for (let i = k; i >= 0; i--) {
+  ans += arr[i] + " ";
 }
 
-for(let i=k+1; i<n; i++){
-    ans+=arr[i]+" ";
+for (let i = k + 1; i < n; i++) {
+  ans += arr[i] + " ";
 }
 
 console.log(ans);

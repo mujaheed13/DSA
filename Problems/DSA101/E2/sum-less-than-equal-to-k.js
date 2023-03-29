@@ -4,7 +4,7 @@ function fun(arr, n, k) {
   let ans = 0;
 
   for (let i = 0; i < n; i++) {
-    if(arr[i]<=k) ans+=arr[i];
+    if (arr[i] <= k) ans += arr[i];
   }
   console.log(ans);
 }
@@ -14,4 +14,3 @@ let n = arr.length;
 let k = 3;
 
 fun(arr, n, k);
-

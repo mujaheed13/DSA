@@ -5,12 +5,12 @@ let n = arr.length;
 
 let min = Infinity;
 
-for(let i=0; i<n; i++){
-    if(min>arr[i]) min = arr[i];
+for (let i = 0; i < n; i++) {
+  if (min > arr[i]) min = arr[i];
 }
 
-for(let i=0; i<n; i++){
-    if(arr[i]%min==0) arr[i]=-1;
+for (let i = 0; i < n; i++) {
+  if (arr[i] % min == 0) arr[i] = -1;
 }
 
 console.log(arr);
