@@ -1,3 +1,4 @@
+//https://oj.masaischool.com/contest/5659/problem/3-1
 function sumWithoutBorders(N, M, matrix) {
   let ans = 0;
   for (let i = 1; i < N - 1; i++) {

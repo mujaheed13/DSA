@@ -1,3 +1,4 @@
+// https://oj.masaischool.com/contest/5659/problem/2-1
 function binaryMatrix(N, M, matrix) {
   for (let i = 0; i < N; i++) {
     for (let j = 0; j < M; j++) {
