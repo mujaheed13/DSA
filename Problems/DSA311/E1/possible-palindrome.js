@@ -8,6 +8,7 @@ function fun(str){
         : obj[str[i]]++;
     }
 
+    
     let count = 0;
     for(let x in obj){
         if(obj[x]%2!=0) count++;
