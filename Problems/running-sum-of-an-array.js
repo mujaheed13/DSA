@@ -8,9 +8,8 @@ let sum = 0;
 let ans = [];
 
 for (let i = 0; i < n; i++) {
-  let x = sum + arr[i];
-  ans.push(x);
-  sum = x;
+  sum += arr[i];
+  ans.push(sum);
 }
 
 console.log(ans.join(" "));
