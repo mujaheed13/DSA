@@ -1,5 +1,5 @@
 function checkPrime(n) {
-  for (let i = 2; i <= Math.sqrt(n / 2); i++) {
+  for (let i = 2; i <= Math.sqrt(n); i++) {
     if (n % i == 0) {
       return "No";
     }
@@ -7,4 +7,4 @@ function checkPrime(n) {
   return "Yes";
 }
 
-console.log(checkPrime(10));
+console.log(checkPrime(23));
