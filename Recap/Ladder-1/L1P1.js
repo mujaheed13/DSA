@@ -11,5 +11,7 @@ function masaiSchoolHurray(n) {
       : "Hurray!"
   );
 }
+
 let n = 7; // ! Masai
+
 masaiSchoolHurray(n);
